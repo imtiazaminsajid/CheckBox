@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#facece"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.example.imtiazaminsajid.checkbox.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Any Country"
+        android:textSize="25dp"
+        android:textColor="#f44848"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/bangladesh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bangladesh"
+        android:textColor="#06069e"
+        android:onClick="country"/>
+    <CheckBox
+        android:id="@+id/noakhali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noakhali"
+        android:textColor="#06069e"
+        android:onClick="country"/>
+    <CheckBox
+        android:id="@+id/india"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textColor="#06069e"
+        android:onClick="country"/>
+    <CheckBox
+        android:id="@+id/pakistan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pakistan"
+        android:textColor="#06069e"
+        android:onClick="country"/>
+    </LinearLayout>
+
+</LinearLayout>
